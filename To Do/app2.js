@@ -96,5 +96,6 @@ $(function() {
 		}
 	};
 app.init();
+// A enlever pour la mise en prode !
 console.log(app.listeItems);
 });			
