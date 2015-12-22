@@ -2,11 +2,21 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+<!-- 	Ce titre n'est pas très explicite ... Niveau SEO : pas super top. -->
 	<title>Document</title>
-	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+<!-- 	Besoin d'autant de FONTS ???
+	Au besoin (et encore, je doute qu'il en faille autant), grouper les requêtes en une seule.
+	Dans une requête Http, en plus du temps de téléchargement propre aux données, il y a d'autres étapes:
+	- hand shaking
+	- ouverture de la connexion
+	- go pour le transfert
+	- fin du transfert
+	- fermeture de la connexion.
+	Donc, avec autant d'appels Http, tu multiplies (pour rien) le temps total de chargement et 
+	un utilisateur qui attend et un utilisateur qui a plus de chance de partir. -->
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One, Bad+Script, Josefin+Sans, Montserrat' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
